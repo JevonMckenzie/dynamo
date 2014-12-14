@@ -5,7 +5,7 @@ require_relative 'model/income'
 require_relative 'helpers.rb'
 
 # nbasalaryscrape service
-class TeamPayService < Sinatra::Base
+class NbaPayDynamo < Sinatra::Base
 
   configure :production, :development do
     enable :logging
